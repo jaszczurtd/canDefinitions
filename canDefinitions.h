@@ -1,11 +1,20 @@
 #ifndef CAN_DEFINITIONS_0
 #define CAN_DEFINITIONS_0
 
+//engine temperature which is considered as a "cold engine". Above is "normal".
+#define TEMP_COLD_ENGINE 45
+//minimum RPM for dependencies to operate on
+#define RPM_MIN 350 
+
+//time for checking if the "cold" start is allowed (s)
+#define CAN_CHECK_COLD_START_CONDITIONS 40
+
 #define CAN_MAIN_LOOP_READ_INTERVAL 50
 #define CAN_CHECK_CONNECTION 1500
 
 #define CAN_FRAME_MAX_LENGTH 8
 
+//0 index - same for all frames
 #define CAN_FRAME_NUMBER 0
 
 #define CAN_ID_ECU_UPDATE 	0x123
