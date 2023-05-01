@@ -45,7 +45,8 @@
 #define F_DPF_PRESSURE 9
 #define F_DPF_TEMP 10
 #define F_DPF_REGEN 11
-#define F_LAST 12
+#define F_CAR_SPEED 12
+#define F_LAST 13
 
 #endif
 
