@@ -9,6 +9,8 @@
 //time for checking if the "cold" start is allowed (s)
 #define CAN_CHECK_COLD_START_CONDITIONS 40
 
+//all values in ms
+#define CAN_UPDATE_RECIPIENTS 200
 #define CAN_MAIN_LOOP_READ_INTERVAL 50
 #define CAN_CHECK_CONNECTION 1500
 
