@@ -39,7 +39,7 @@
 #define F_COOLANT_TEMP 1
 #define F_OIL_TEMP 2
 #define F_INTAKE_TEMP 3
-#define F_ENGINE_LOAD 4
+#define F_THROTTLE_POS 4
 #define F_RPM 5
 #define F_EGT 6
 #define F_PRESSURE 7
@@ -48,6 +48,7 @@
 #define F_DPF_TEMP 10
 #define F_DPF_REGEN 11
 #define F_CAR_SPEED 12
-#define F_LAST 13
+#define F_CALCULATED_ENGINE_LOAD 13
+#define F_LAST 14
 
 #endif
