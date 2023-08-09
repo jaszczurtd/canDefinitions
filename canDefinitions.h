@@ -49,6 +49,7 @@
 #define F_DPF_REGEN 11
 #define F_CAR_SPEED 12
 #define F_CALCULATED_ENGINE_LOAD 13
-#define F_LAST 14
+#define F_OIL_PRESSURE 14
+#define F_LAST 15
 
 #endif
