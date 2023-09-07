@@ -1,6 +1,9 @@
 #ifndef CAN_DEFINITIONS_0
 #define CAN_DEFINITIONS_0
 
+//how many times CAN modules should be initialized in case of error?
+#define CAN_RETRIES 4
+
 //engine temperature which is considered as a "cold engine". Above is "normal".
 #define TEMP_COLD_ENGINE 45
 //minimum RPM for dependencies to operate on
