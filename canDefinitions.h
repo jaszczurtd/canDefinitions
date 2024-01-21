@@ -54,6 +54,7 @@
 #define F_CALCULATED_ENGINE_LOAD 13
 #define F_OIL_PRESSURE 14
 #define F_PRESSURE_PERCENTAGE 15
-#define F_LAST 16
+#define F_FUEL_TEMP 16
+#define F_LAST 17
 
 #endif
