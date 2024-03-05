@@ -38,6 +38,10 @@
 #define CAN_FRAME_DPF_UPDATE_DPF_PRESSURE_LO 4
 #define CAN_FRAME_DPF_UPDATE_DPF_REGEN 5
 
+#define CAN_ID_LUMENS       0x125
+#define CAN_FRAME_LIGHTS_UPDATE_HI 1
+#define CAN_FRAME_LIGHTS_UPDATE_LO 2
+
 #define F_FUEL 0
 #define F_COOLANT_TEMP 1
 #define F_OIL_TEMP 2
@@ -55,6 +59,7 @@
 #define F_OIL_PRESSURE 14
 #define F_PRESSURE_PERCENTAGE 15
 #define F_FUEL_TEMP 16
-#define F_LAST 17
+#define F_OUTSIDE_LUMENS 17
+#define F_LAST 18
 
 #endif
